@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: rgb(235, 227, 227);
+  font-weight: 400;
+  background-color: rgb(167, 184, 189);
+  box-shadow: 2px 2px 4px 4px rgb(62, 88, 97);
+  font-size: 30px;
+}
+.link {
+  color: rgb(235, 227, 227);
+  font-weight: bold;
+}
+.activeLink {
+  color: black;
+}
+.wrapperLinks {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,12 @@
+.link {
+  color: rgb(235, 227, 227);
+  font-weight: bold;
+}
+.activeLink {
+  color: black;
+}
+.nav {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 15px;
+}

@@ -1,9 +1,9 @@
 import { Field, Form, Formik } from "formik";
-import s from "./RegisterForm.module.css";
+import s from "./RegistrationForm.module.css";
 import { useDispatch } from "react-redux";
 import { register } from "../../redux/auth/operations";
 
-const RegisterForm = () => {
+const RegistrationForm = () => {
   const dispatch = useDispatch();
   const initialValues = {
     name: "",
@@ -41,4 +41,4 @@ const RegisterForm = () => {
   );
 };
 
-export default RegisterForm;
+export default RegistrationForm;

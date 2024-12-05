@@ -1,0 +1,11 @@
+.link {
+  color: rgb(235, 227, 227);
+  font-weight: bold;
+}
+.activeLink {
+  color: rgb(39, 38, 38);
+}
+.wrapperLinks {
+  display: flex;
+  gap: 20px;
+}

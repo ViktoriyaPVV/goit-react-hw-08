@@ -4,14 +4,14 @@ import {
   deleteContactThunk,
   fetchContacts,
 } from "./operations";
-// import { logout } from "../auth/operations";
+import { logout } from "../auth/operations";
 
 // import {
 //   addContactThunk,
 //   deleteContactThunk,
 //   fetchContacts,
 // } from "./contactsOps";
-// import { selectFilter } from "./filtersSlice";
+// import { selectFiltered } from "/";
 
 const initialState = {
   items: [],
@@ -44,7 +44,7 @@ const slice = createSlice({
       .addCase(addContactThunk.fulfilled, (state, action) => {
         state.items.push(action.payload);
       })
-      //   .addCase(logout.fulfilled, () => initialState)
+      .addCase(logout.fulfilled, () => initialState)
       .addMatcher(
         isAnyOf(
           fetchContacts.pending,
